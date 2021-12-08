@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragment_Sucursales">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="408dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/teal_700"
+                    android:text="SUCURSALES"
+                    android:textColor="#64FFDA"
+                    android:textSize="25sp" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:id="@+id/tabla1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imagen1_f3"
+                        android:layout_width="125dp"
+                        android:layout_height="199dp"
+                        tools:srcCompat="@drawable/sucursal1" />
+
+                    <TextView
+                        android:id="@+id/texto2"
+                        android:layout_width="282dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/archivo_black"
+                        android:text="carrera 111 b # 138 38, Bogotá, Distrito Especial, Colombia. Get Directions. https://almacen-el-profe.business.site/. +57 313 3246209. Shopping Retail."
+                        android:textAlignment="center" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imagen2_f3"
+                        android:layout_width="127dp"
+                        android:layout_height="188dp"
+                        tools:srcCompat="@drawable/sucursal2" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="280dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/archivo_black"
+                        android:text="ALMACENES LA PRIMAVERA S A en MEDELLIN ANTIOQUIA. Conozca el teléfono de contacto, dirección, NIF y más información de ALMACENES LA PRIMAVERA S A."
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imagen3_f3"
+                        android:layout_width="125dp"
+                        android:layout_height="217dp"
+                        tools:srcCompat="@drawable/sucursal4" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="278dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/archivo_black"
+                        android:text="Teléfono +(2) 820-... Dirección ☛ Cll 6 13 52 Cra 19 8 05, Valencia - Esmeralda - Almacen Tequendama en Popayán, Cauca."
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </TableLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
